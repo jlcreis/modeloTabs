@@ -1,0 +1,36 @@
+<ion-view view-title="Pesquisa">
+  <ion-content class="padding">
+    <h3>Destaques</h3>
+      <ion-slide-box on-slide-changed="slideHasChanged($index)" class="slideBox" auto-play="true" does-continue="true">
+          <ion-slide>
+            <img style="height: 300px" src="http://imguol.com/c/noticias/2013/10/11/bombril---esponja-de-aco-1381506271857_615x470.jpg">
+          </ion-slide>
+          <ion-slide>
+            <img style="height: 300px" src="http://ec.i.uol.com.br/economia/2012/12/20/produto-da-linha-meu-primeiro-danone-1356014187357_956x500.jpg">
+          </ion-slide>
+          <ion-slide>
+            <img style="height: 300px" src="http://aredacao.com.br/upload/img_7205.jpg">
+          </ion-slide>
+      </ion-slide-box>
+     
+      <h3>Produto:</h3>
+        <div class="bar bar-header item-input-inset">
+          <label class="item-input-wrapper">
+            <i class="icon ion-ios-search placeholder-icon"></i>
+            <input type="search" placeholder="Produto">
+          </label>
+          <button class="button button-clear hide-on-keyboard-open">Cancelar</button>
+            
+        </div>
+      </br>
+      <h3>Estabelecimento:</h3>
+      <div class="bar bar-header item-input-inset">
+          <label class="item-input-wrapper">
+            <i class="icon ion-ios-search placeholder-icon"></i>
+            <input type="search" placeholder="Estabelecimento">
+          </label>
+          <button class="button button-clear">Cancelar</button>
+        </div>
+    
+  </ion-content>
+</ion-view>
